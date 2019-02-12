@@ -3,23 +3,23 @@ button{
 }
 
 .long-btn{
-    width: 150px;
+    width: 210px;
     line-height: 50px;
     background: white;
     border: 1px solid gray;
 }
 
 .number-btns{
-    width: 50px;
+    width: 70px;
     line-height: 50px;
     background: white;
     border: 1px solid gray;
 }
 
 .red-button{
-    background:red;
+    background:#AD0001;
     color: white;
-    width: 50px;
+    width: 90px;
     line-height: 50px;
     border: 1px solid gray;
 }

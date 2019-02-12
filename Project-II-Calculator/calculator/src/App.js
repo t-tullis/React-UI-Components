@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import ButtonContainer from './components/ButtonComponents/ButtonContainer'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
@@ -10,8 +9,8 @@ const App = () => {
     <div className= 'calc-container'>
       <CalculatorDisplay  />
       <div className = 'action-btns'>
-        <ActionButton buttonStyle='red-button' text = "Clear" />
-        <NumberButton buttonStyle='number-btns' className = 'operator' text = "/" />
+        <ActionButton text = "Clear" />
+        <NumberButton buttonStyle='red-button' className = 'operator' text = "/" />
       </div>
         <div className = 'row'>
           <NumberButton buttonStyle='number-btns' text= "7"/>
@@ -32,7 +31,7 @@ const App = () => {
           <NumberButton buttonStyle='red-button' text = "+" />
       </div>
       <div className = 'action-btns'>
-        <ActionButton buttonStyle='number-btns' text = "0" />
+        <ActionButton text = "0" />
         <NumberButton buttonStyle='red-button' text = "=" />
       </div>
     </div>
