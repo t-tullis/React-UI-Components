@@ -1,0 +1,25 @@
+button{
+    font-size: 1.5rem;
+}
+
+.long-btn{
+    width: 150px;
+    line-height: 50px;
+    background: white;
+    border: 1px solid gray;
+}
+
+.number-btns{
+    width: 50px;
+    line-height: 50px;
+    background: white;
+    border: 1px solid gray;
+}
+
+.red-button{
+    background:red;
+    color: white;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid gray;
+}

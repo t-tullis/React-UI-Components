@@ -1,0 +1,8 @@
+.calc-result{
+    text-align: right;
+    font-size: 2rem;
+    border: 1px 1px 0 1px solid gray;
+    line-height: 60px;
+    background: black;
+    color: white;
+}

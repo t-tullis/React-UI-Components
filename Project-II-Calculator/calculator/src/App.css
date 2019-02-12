@@ -1,0 +1,14 @@
+.calc-container{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.action-btns{
+    display: flex;
+    width: 100%;   
+}
+.row{
+    display: flex;
+}
+
+
