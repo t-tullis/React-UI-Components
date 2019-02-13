@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+/* .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+.headerContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thumbNail{
+    width: 55px;
+    height: 50px;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.bottom-content{
+    margin-left: 15px;
+}

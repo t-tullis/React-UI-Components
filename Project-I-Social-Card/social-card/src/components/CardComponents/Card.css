@@ -1,1 +1,7 @@
 /* All styles for your Card Components live here */
+.cardContent{
+    margin-left: 70px;
+    border: 1px gainsboro solid;
+    padding: 5px 10px;
+    margin-top: -4px;
+}
