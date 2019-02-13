@@ -9,30 +9,30 @@ const App = () => {
     <div className= 'calc-container'>
       <CalculatorDisplay  />
       <div className = 'action-btns'>
-        <ActionButton text = "Clear" />
-        <NumberButton buttonStyle='red-button' className = 'operator' text = "/" />
+        <ActionButton buttonStyle = 'long-btn' text = 'Clear' />
+        <NumberButton buttonStyle='red-button' className = 'operator' text = '&divide;' />
       </div>
         <div className = 'row'>
-          <NumberButton buttonStyle='number-btns' text= "7"/>
-          <NumberButton buttonStyle='number-btns' text = "8"/>
-          <NumberButton buttonStyle='number-btns' text = "9"/>
-          <NumberButton buttonStyle='red-button' text = "X" />
+          <NumberButton buttonStyle='number-btns' text= '7'/>
+          <NumberButton buttonStyle='number-btns' text = '8'/>
+          <NumberButton buttonStyle='number-btns' text = '9'/>
+          <NumberButton buttonStyle='red-button' text = '&times;' />
       </div>
       <div className = 'row'>
-          <NumberButton buttonStyle='number-btns' text= "4"/>
-          <NumberButton buttonStyle='number-btns' text = "5"/>
-          <NumberButton buttonStyle='number-btns' text = "6"/>
-          <NumberButton buttonStyle='red-button'  text = "-" />
+          <NumberButton buttonStyle='number-btns' text= '4'/>
+          <NumberButton buttonStyle='number-btns' text = '5'/>
+          <NumberButton buttonStyle='number-btns' text = '6'/>
+          <NumberButton buttonStyle='red-button'  text = '&minus;' />
       </div>
       <div className = 'row'>
-          <NumberButton buttonStyle='number-btns' text= "1"/>
-          <NumberButton buttonStyle='number-btns' text = "2"/>
-          <NumberButton buttonStyle='number-btns' text = "3"/>
-          <NumberButton buttonStyle='red-button' text = "+" />
+          <NumberButton buttonStyle='number-btns' text= '1'/>
+          <NumberButton buttonStyle='number-btns' text = '2'/>
+          <NumberButton buttonStyle='number-btns' text = '3'/>
+          <NumberButton buttonStyle='red-button' text = '+' />
       </div>
       <div className = 'action-btns'>
-        <ActionButton text = "0" />
-        <NumberButton buttonStyle='red-button' text = "=" />
+        <ActionButton buttonStyle='long-btn' text = '0' />
+        <NumberButton buttonStyle='red-button' text = '=' />
       </div>
     </div>
   );

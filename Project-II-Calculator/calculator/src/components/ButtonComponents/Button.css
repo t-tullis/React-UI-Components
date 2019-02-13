@@ -7,6 +7,7 @@ button{
     line-height: 50px;
     background: white;
     border: 1px solid gray;
+    font-weight: 400;
 }
 
 .number-btns{
@@ -14,6 +15,7 @@ button{
     line-height: 50px;
     background: white;
     border: 1px solid gray;
+    font-weight: 500;
 }
 
 .red-button{

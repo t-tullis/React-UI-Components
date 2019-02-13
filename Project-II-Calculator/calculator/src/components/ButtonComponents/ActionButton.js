@@ -4,7 +4,7 @@ import './Button.css';
 const ActionButton = props =>{
     return(
         <div>
-            <button className='long-btn'>{props.text}</button>
+            <button className={props.buttonStyle}>{props.text}</button>
         </div>
     )
 }
